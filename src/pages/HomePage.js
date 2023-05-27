@@ -70,7 +70,7 @@ function HomePage() {
               onClick={RequestListOfUserScoreResponse}
                 class="d-flex justify-content-center"
                 style={{ paddingTop: "2rem"}}>
-                <h1>SCOREBOARD</h1>
+                <h1>QUIZ SCOREBOARD</h1>
               </Card.Title>
               <Card.Body >
                 <Scoreboard scoreResults={scoreResults} countOfScoreResults={countOfScoreResults} />          
